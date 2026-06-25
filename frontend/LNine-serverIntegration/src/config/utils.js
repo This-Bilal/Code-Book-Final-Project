@@ -1,0 +1,1 @@
+export const toastOptions = {CloseButton: true, position: "top-right"}
