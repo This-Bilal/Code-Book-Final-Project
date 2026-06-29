@@ -1,7 +1,7 @@
 import { useState } from "react";
-import { useTitle } from "../../Hooks/useTitle";
-import AdminProductForm from "../../Components/Admin/AdminProductForm";
-import AdminProductList from "../../Components/Admin/AdminProductList";
+import { useTitle } from "../../hooks/useTitle";
+import AdminProductForm from "../../Components/admin/AdminProductForm";
+import AdminProductList from "../../Components/admin/AdminProductList";
 
 const AdminPage = () => {
   useTitle("Admin Dashboard - CodeBook");
