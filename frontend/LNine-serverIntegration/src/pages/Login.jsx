@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import  useTitle  from "../Hooks/useTitle";
+import  {useTitle}  from "../hooks/useTitle";
 import { toast } from "react-toastify";
 import { loginUser } from "../services/AuthService";
 import {IoMdEye, IoMdEyeOff } from "react-icons/io"

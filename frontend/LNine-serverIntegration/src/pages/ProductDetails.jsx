@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
-import  useTitle  from "../Hooks/useTitle";
+import  {useTitle}  from "../hooks/useTitle";
 import {Rating} from "../Components/Elements/Rating";
 import { toast } from "react-toastify";
 import { IoMdAdd, IoMdArrowBack } from "react-icons/io";
