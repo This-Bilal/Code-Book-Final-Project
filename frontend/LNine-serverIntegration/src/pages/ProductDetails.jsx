@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
-import { useTitle } from "../Hooks/useTitle";
-import Rating from "../Components/Elements/Rating";
+import  useTitle  from "../Hooks/useTitle";
+import {Rating} from "../Components/Elements/Rating";
 import { toast } from "react-toastify";
 import { IoMdAdd, IoMdArrowBack } from "react-icons/io";
 import {FaTrashAlt} from "react-icons/fa"

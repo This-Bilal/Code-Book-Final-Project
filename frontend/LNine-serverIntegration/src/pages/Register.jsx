@@ -1,7 +1,7 @@
 import { useState } from "react";
 import {IoMdEye, IoMdEyeOff } from "react-icons/io"
 import { Link, useNavigate } from "react-router-dom";
-import { useTitle } from "../Hooks/useTitle";
+import  useTitle  from "../Hooks/useTitle";
 import { registerUser } from "../services/AuthService";
 import {toast} from "react-toastify"
 const Register = () => {
