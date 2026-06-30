@@ -1,4 +1,4 @@
-// The frontend_url is doen after deployment
+// The frontend_url is done after deployment
 const frontend_url = process.env.CLIENT_URI
 
 const allowedOrigin = [
