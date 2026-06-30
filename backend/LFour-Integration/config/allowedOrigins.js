@@ -1,5 +1,5 @@
 // The frontend_url is done after deployment
-const frontend_url = process.env.CLIENT_URI
+const frontend_url = process.env.CLIENT_URL
 
 const allowedOrigin = [
     "http://localhost:5173",
