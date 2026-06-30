@@ -1,6 +1,10 @@
+// The frontend_url is doen after deployment
+const frontend_url = process.env.CLIENT_URI
+
 const allowedOrigin = [
     "http://localhost:5173",
-    "http://localhost:3002"
+    "http://localhost:3002",
+    frontend_url
 ]
 
 module.exports = allowedOrigin
